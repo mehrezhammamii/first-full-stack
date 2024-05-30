@@ -1,0 +1,42 @@
+/* src/component/student.css */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adds space between cards */
+  justify-content: space-around; /* Distributes the cards evenly */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%; /* Adjust width as needed */
+  margin-bottom: 20px; /* Adds space below each card */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+button {
+  margin: 5px;
+}
+
+.add-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
